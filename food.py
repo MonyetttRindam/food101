@@ -265,7 +265,7 @@ with st.expander("ℹ️ Cara Penggunaan", expanded=False):
 def load_food_model():
     try:
         model_path = hf_hub_download(
-            repo_id="MonyetttRindam/foof101abil",
+            repo_id="MonyetttRindam/food101abil",
             filename="Food_101.h5"
         )
         return load_model(model_path)
