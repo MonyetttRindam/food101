@@ -266,7 +266,7 @@ def load_food_model():
     try:
         model_path = hf_hub_download(
             repo_id="MonyetttRindam/foof101abil",
-            filename="Food_101.h5"
+            filename="food101.h5"
         )
         return load_model(model_path)
     except Exception as e:
